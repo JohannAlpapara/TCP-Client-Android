@@ -23,10 +23,10 @@ import java.net.SocketException;
 
 public class MainActivity extends AppCompatActivity {
     public static final String EXTRA_MESSAGE = "space.mzero.tcpz.MESSAGE";
-    public static String msg = "default";
+    public static String msg = "Hello";
     public static String resp = "No Response Yet\nTry Sending Some Data.";
-    public static String server_address = "10.0.0.6";
-    public static Integer server_port = 3333;
+    public static String server_address = "192.168.0.118";
+    public static Integer server_port = 7777;
     public static Boolean Abort = false;
     public static LongOperation lo = null;
 
